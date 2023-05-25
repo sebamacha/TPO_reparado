@@ -1,0 +1,4 @@
+url de la api
+https://ipgeolocation.abstractapi.com
+api key
+37ceec476b0a4646a2b1dfd771b557c4

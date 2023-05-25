@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Al Toque, Comida ONline Delivery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+
+ <header id="logonegro">
+<div class="api-data-container">
+  <p style="background-color: #ee6e73; color: aliceblue; text-align: center;" id="combined-data"></p>
+</div>
+    <div>
+      <span id="texto-video" style="color:#ee6e73; display; text-align: center;">
+        <h1 style="font-size: 80px; font-family: 'Konkhmer Sleokchher'; color: #ee6e73; ">Al toque</h1>
+      </span>
+      <h2 style="text-align: center;">Comida Delivary Online</h2>
+
+    </div>
+  </header>
+  <nav style="background-color: #ee6e73;" >
+    <div class="toggle menu"><i class="fa fa-bars"></i></div>
+    <ul  >
+      <li style="background-color: #ee6e73;" ><a href="#iniciolink">Inicio</a></li>
+      <li style="background-color: #ee6e73;" ><a href="#platoslink">Platos</a></li>
+      <li style="background-color: #ee6e73;" ><a href="#sobrenosotroslink">Sobre Nosotros</a></li>
+      <li style="background-color: #ee6e73;" ><a href="#contactolink">Contacto</a></li>
+      <li style="background-color: #ee6e73;" ><a href="#redeslink">Redes Sociales</a></li>
+    </ul>
+  </nav>
+  <!-- inicio -->
+  <section id="iniciolink" class="container">
+
+    <span class="parpadea text" id="texto-video">
+      <h1 style="color: #ee6e73;";" >Los mejores platos de Argentina</h1>
+    </span>
+
+    <video autoplay controls>
+      <source src="vid/intro.mp4" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+
+    <p id="texto-video">¿Que estas esperando?</p>
+  </section>
+  <!-- carrousel de platos -->
+  <div  id="platoslink" style="padding: 0px; margin: 0px; align-items: center; position: relative;">
+    <h2 id="elegimas" style="color: #ee6e73;" >Elegi lo que mas te guste</h2>
+    <h3 id="elegimas" style="color: #ee6e73;" >Nosotros te lo llevamos</h3>
+  </div>
+  </div>
+  <section class="container">
+    <!-- <div class="contenido"> -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/comida1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida4.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida5.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida6.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida7.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida8.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/comida9.png" class="d-block w-100" alt="...">
+        </div>   
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- </div> -->
+  </section>
+  <!-- ---------sobre nosotros----------------- -->
+  <section id="sectionsobrenosotros" >
+    
+      <div id="sobrenosotroslink" style="margin: 0px; padding: 0px;" >
+        <!-- <img id="sobrenosotrosimg" src="img/logonegro.svg" alt=""> -->
+     <h2 id="h2sobrenosotros" >Sobre Nosotros</h2>
+      <p id="psobrenosotros">Al Toque es una empresa de comida delivery online que se especializa en brindar un servicio
+        rápido y confiable a sus clientes. Con más de 8 años de experiencia en el mercado, somos una empresa familiar
+        comprometida con la calidad de nuestros productos y el servicio al cliente. Desde el momento en que llamas para
+        hacer tu pedido, nos aseguramos de que tu experiencia sea fácil y satisfactoria. Nuestro menú está diseñado para
+        satisfacer todos los gustos y necesidades, desde platos vegetarianos hasta opciones sin gluten. Además,
+        ofrecemos una variedad de bebidas y postres para completar tu comida. En Al Toque, nos enorgullece ser una
+        empresa local y estamos agradecidos por la oportunidad de servir a nuestra comunidad.</p>
+    </div>
+  </section>
+
+ <!-- ------------------contacto----------------------------- -->
+<section id="contactolink" class="container">
+  <div id="formaliado" class="row">
+    <h3 style="color: #ee6e73; margin-top: 35px;" class="center-align">Formulario de Contacto</h3>
+    <article class="col s12 m6 offset-m3">
+      <form action="https://formspree.io/f/mbjebblz" method="POST">
+
+        <div class="input-field">
+          <i class="material-icons prefix"></i>
+          <label for="name" class="active">Nombre</label>
+          <input type="text" name="nombre">
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">person_pin</i>
+          <label for="apellido" class="active">Apellido</label>
+          <input type="text" name="apellido">
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <label for="email" class="active">Email</label>
+          <input type="email" name="email">
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">mode_edit</i>
+          <label for="mensaje" class="active">Mensaje</label>
+          <textarea name="mensaje" id="message" rows="10" class="materialize-textarea" length="140"></textarea>
+        </div>
+        <p class="validacion" id="validacion"></p>
+        <p class="center-align">
+          <button style="color: #000000; background-color: #ee6e73;" class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>enviar</button>
+          <button style="color: #000000; background-color: #ee6e73;" class="waves-effect waves-light btn" type="reset"><i class="material-icons right">clear</i>limpiar</button>
+        </p>
+      </form>
+    </article>
+  </div>
+</section>
+
+
+
+  <!-- redes sociales -->
+  <section id="redeslink" >
+    <h1 id="h1redes" style="color: #ee6e73;" >Comunicate con nosotros!</h1>
+    <div class="wrapper">
+      <div class="button">
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <span>Facebook</span>
+      </div>
+      <div class="button">
+        <div class="icon">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <span>Twitter</span>
+      </div>
+      <div class="button">
+        <div class="icon">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+        <span>whatsapp</span>
+      </div>
+      <div class="button">
+        <div class="icon">
+
+          <i class='fa fa-phone'></i>
+        </div>
+        <span>Telefono</span>
+      </div>
+      <div class="button">
+        <div class="icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <span>Instagram</span>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+
+  </section>
+
+
+
+  <footer id="footer">
+    <h4>&copy Trabajo Practico Obligatorio</h4>
+    <h5>Codo a Codo - Python Full Stack</h5>
+    <h5>Comision 23034 - Grupo 21</h5>
+   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
